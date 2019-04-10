@@ -15,10 +15,10 @@ while Year < ThisYear:
     OriginalPrice = int(OriginalPrice * (1 + BankRate))
     print("Original : " + str(OriginalPrice))
     Year += 1
-    
+
 if OriginalPrice > AprtmentPrice:
     Diff = OriginalPrice - AprtmentPrice
-    print("%d 차이로 동일 아저씨의 말씀이 맞습니다." % (Diff))  
+    print("%d 차이로 동일 아저씨의 말씀이 맞습니다." % (Diff))
 else:
     Diff = AprtmentPrice - OriginalPrice
     print("%d 차이로 미란 아주머니의 말씀이 맞습니다." % (Diff))

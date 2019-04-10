@@ -11,5 +11,5 @@ while first <= 9:
     second = 1
     while second <= 9:
         print("%d * %d = %d" % (first, second, first * second))
-        second += 1       
+        second += 1
     first += 1
